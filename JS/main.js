@@ -2,8 +2,9 @@
 var nome = "Rafael Braga";
 var idade = 30;
 var idade2 = 6;
+var soma = idade+idade2;
 
-alert("Bem vindo " + nome + ", que tem " + idade + idade2 + " anos");
+alert("Bem vindo " + nome + ", que tem " + soma + " anos");
 
 // comentario simples
 
