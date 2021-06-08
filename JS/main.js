@@ -71,3 +71,32 @@ alert(d.getDay());
 alert(d.getHours());
 alert(d.getMinutes());
 */
+
+
+// aula4 - funcoes
+
+function soma(n1, n2){
+    return n1 +n2;
+}
+
+alert(soma(5, 10));
+
+function substituirNome(frase, nome, novo_nome){
+    return frase.replace(nome, novo_nome)
+}
+alert(substituirNome("vai japao", "japao", "brasil"));
+
+//var global x local:
+var validar = 0;
+
+function validaidade(idade){
+    if (idade>=18){
+        validar = true
+    }else{
+        validar = false
+    }
+    return validar;
+}
+var idade = prompt("qual sua idade?");
+validaidade(idade)
+console.log(validar);
