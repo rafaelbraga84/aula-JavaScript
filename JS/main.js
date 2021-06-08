@@ -74,7 +74,7 @@ alert(d.getMinutes());
 
 
 // aula4 - funcoes
-
+/*
 function soma(n1, n2){
     return n1 +n2;
 }
@@ -100,3 +100,12 @@ function validaidade(idade){
 var idade = prompt("qual sua idade?");
 validaidade(idade)
 console.log(validar);
+*/
+
+function clicou(){
+    alert("obrigado por clicar");
+}
+
+function clicou2(){
+    document.getElementById("agradecimento").innerHTML = "obrigado";
+}
