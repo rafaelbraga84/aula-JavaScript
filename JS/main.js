@@ -109,3 +109,18 @@ function clicou(){
 function clicou2(){
     document.getElementById("agradecimento").innerHTML = "obrigado";
 }
+
+function redirecionar(){
+    window.open("https://goal.com/en");
+   // OU window.location.href = "https://goal.com/en";
+}
+
+function trocar(elemento){
+   // SEM ELEMENTO OU PARAMETRO NA FUNCAO, POREM NAO CHAMA NOVAMENTE SE CRIAR OUTRO PARAGRAFO: document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+   elemento.innerHTML = "Obrigado por passar o mouse";
+}
+
+function voltar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui novamente";
+    elemento.innerHTML = "Passe o mouse aqui novamente";
+}
